@@ -36,14 +36,14 @@ class _CircleAvatarViewState extends State<CircleAvatarView> {
                 ),
               )
             : ClipRRect(
-          borderRadius: BorderRadius.circular(100),
-              child: Image.file(
+                borderRadius: BorderRadius.circular(100),
+                child: Image.file(
                   selectedFile!,
                   height: 160,
                   fit: BoxFit.cover,
                   width: 160,
                 ),
-            ),
+              ),
       ),
     );
   }

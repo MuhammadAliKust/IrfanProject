@@ -1,7 +1,12 @@
 import 'package:flutter/material.dart';
 import 'package:irfan_project/presentation/views/circle_avatar_view.dart';
+import 'package:irfan_project/presentation/views/drop_down_view.dart';
+import 'package:irfan_project/presentation/views/dynamic_data_view.dart';
 import 'package:irfan_project/presentation/views/get_started.dart';
+import 'package:irfan_project/presentation/views/multi_selection_demo.dart';
 import 'package:irfan_project/presentation/views/onboarding_view.dart';
+import 'package:irfan_project/presentation/views/single_selection_demo.dart';
+import 'package:irfan_project/presentation/views/text_field_spacing.dart';
 
 void main() {
   runApp(const MyApp());
@@ -34,7 +39,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: CircleAvatarView(),
+      home: DynamicDataView(),
     );
   }
 }
